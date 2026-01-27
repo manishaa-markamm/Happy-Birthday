@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ADEED9;
+}
+.container{
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 500px;
+    padding-top: 15px;
+}
+.forbtn{
+    position: relative;
+}
+button{
+    position: absolute;
+    top:580px;
+    left:160px;
+    height: 40px;
+    width: 160px;
+    border-radius:7px;
+}
+button:hover{
+    scale:1.2;
+}
+a{
+    text-decoration: none;
+    color:#0ba19c ;
+}
+img{
+    position: absolute;
+    top: 120px;
+    
+    height: 450px;
+    border-top: 20px solid #0abab0;;
+    border-left: 20px solid #0abab0 ; 
+    border-bottom: 20px solid #0abab0;
+    border-radius: 5px;
+}

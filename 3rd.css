@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ADEED9;
+}
+.parent{
+    position: relative;
+    top:280px;
+    left: 510px;
+    align-items: center;
+    font-weight:900;
+    z-index: 1;
+}
+.parent p{
+    font-size:30px;
+}
+button{
+    position: absolute;
+    top: 390px;
+    left: 540px;
+    height:40px;
+    width:140px;
+    border-radius:5px;
+    z-index: 1;
+    
+
+}
+button:hover{
+    background-color: #167a76;
+    scale: 1.2;
+}
+button a{
+    text-decoration: none;
+    color:#055b58;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -82px;
+    z-index: 0;
+}
+
+.box1{
+    position: absolute;
+    top:55px;
+    left: -230px;
+    padding:52px;
+    animation: moveText 15s infinite linear;
+     animation-delay:3s;
+}
+.box2{
+    position: absolute;
+    top: 180px;
+    left: -290px;
+     animation: moveText 11s infinite linear;
+      animation-delay:3s;
+}
+.box3{
+    position: absolute;
+    top: 480px;
+    left: -270px;
+     animation: moveText 10s infinite linear;
+     animation-delay:3s;
+}
+
+@keyframes moveText {
+    0%{
+translate:900%;
+    }
+    40%{
+        scale:1.5;
+    }
+    100%{
+translate:-5%;
+    }
+}
+.picwa img{
+    height:120px;
+    width:110px; 
+    animation: movePic 14s infinite linear;
+    animation-delay: 3s;
+}
+@keyframes movePic{
+    0%{
+translate:1830%;
+    }
+    100%{
+        translate:-5%;
+    }
+}
+.picwa{
+    position: relative;
+    left: -410px;
+
+}
+.picwa2 img{
+     height:120px;
+    width:110px; 
+    animation: movePic 8s infinite linear;
+    animation-delay: 3s;
+    position: absolute;
+    top:480px;
+    left: -120px;
+    
+}

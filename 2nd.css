@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ADEED9;
+}
+.parent{
+    position: relative;
+
+
+}
+.parent p{
+    position: absolute;
+    right:448px;
+    top:310px;
+    font-size:28px;
+}
+.container{
+    position: relative;
+    top: 380px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin:18px;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+}
+button:hover{
+    scale: 1.3;
+}
+a{
+    text-decoration: none;
+    color:#0ba19c ;
+}
+.photu{
+    height:130px;
+    width: 50px;
+    position: relative;
+   
+}
+img{
+    height:240px;
+    width:190px;
+    position: absolute;
+    left: 660px;
+    top: 390px;
+     border-radius: 6px;
+}
+#photu1{
+    position:absolute;
+    top:-350px;
+}
+#photu2{
+    position: absolute;
+    top: -95px;
+    left: 440px;
+    
+}
+#photu3{
+    position: absolute;
+    top: -98px;
+    left: -460px;
+}
+
+.main{
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
